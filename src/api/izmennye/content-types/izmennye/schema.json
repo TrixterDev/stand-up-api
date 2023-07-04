@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "izmennyes",
+  "info": {
+    "singularName": "izmennye",
+    "pluralName": "izmennyes",
+    "displayName": "Измененные",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "fullname": {
+      "type": "text"
+    },
+    "avatarka": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "answers": {
+      "type": "text"
+    },
+    "question": {
+      "type": "text"
+    }
+  }
+}
